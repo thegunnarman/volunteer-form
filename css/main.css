@@ -1,39 +1,52 @@
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
-body {
-  background-color: #f2f2f2;
+fieldset {
+  border: none;
 }
 
-form {
-  background-color: #fff;
+header {
+  background-color: #70ad55;
+  color: #fff;
+  text-align: left;
 }
 
-h1 {
-  border-bottom: 1px solid #000;
+input {
+  border-color: #6e8c62;
 }
 
-h2 {
-  border-bottom: 1px solid #000;
+select {
+  border-color: #6e8c62;
 }
 
-@media only screen and (min-width: 60em) {
+hr {
+  border-color: #70ad55;
+  opacity: .3;
+}
 
-  .name {
-    padding-right: .5em;
-  }
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+  border: none;
+}
 
-  .age {
-    padding-left: .5em;
-  }
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
 
-  .email {
-    padding-right: .5em;
-  }
+[type="checkbox"] + label::before,
+[type="radio"] + label::before,
+textarea {
+  border-color: #6e8c62;
+}
 
-  .health {
-    padding-left: .5em;
-  }
+.margin-none {
+  margin-left: 0;
+  margin-right: 0;
+}
 
+textarea {
+  height: 10rem;
 }
