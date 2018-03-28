@@ -1,0 +1,39 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+form {
+  background-color: #fff;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+h2 {
+  border-bottom: 1px solid #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .name {
+    padding-right: .5em;
+  }
+
+  .age {
+    padding-left: .5em;
+  }
+
+  .email {
+    padding-right: .5em;
+  }
+
+  .health {
+    padding-left: .5em;
+  }
+
+}
